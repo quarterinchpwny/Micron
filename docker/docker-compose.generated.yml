@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  api_gateway:
+    container_name: microns_api_gateway
+    restart: always
+    build:
+      context: ./api_gateway
+    ports:
+    - 8001:80
+    volumes:
+    - api_gateway_data:/var/www/html/storage
+    networks:
+    - BKnetwork
+volumes:
+  api_gateway_data: null
+networks:
+  BKnetwork: null
