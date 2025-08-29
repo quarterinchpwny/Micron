@@ -53,7 +53,7 @@ dynamic-compose-react/
 
 ## 📸 Screenshots
 
-_(Add screenshots of your UI here: service cards, infra toggle, generate/deploy buttons)_
+_-_
 
 ---
 
